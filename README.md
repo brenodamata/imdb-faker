@@ -43,6 +43,13 @@ IMDBFaker::Quote.classic            #=> "Hasta la vista, baby"
 IMDBFaker::Character.random_name 'm'   #=> "Kevin McCallister"
 IMDBFaker::Character.random_name 'f'   #=> "Holly Golightly"
 ```
+
+Available parameters for genders:
+
+  - Female: 'f', 'w', 'female', 'woman', 'girl'
+  - Male: 'm', 'male', 'man', 'boy', 'dude', 'guy'
+    
+
 Or:
 ```sh
 IMDBFaker::Character.male_name    #=> "Bruce Banner"
