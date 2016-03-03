@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    imdb-faker (0.1.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (8.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  imdb-faker!
+
+BUNDLED WITH
+   1.11.2

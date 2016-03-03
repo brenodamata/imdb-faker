@@ -12,7 +12,7 @@ module IMDBFaker
     end
 
     def self.random_name sex=nil
-      self.send("#{%w(eighties classic g funny hipster bad_mother_f psycho cool fantasy dark_horse hero).sample}", *["#{sex}"])
+      self.send("#{%w(eighties classic g funny hipster bad_mother_f psycho cool fantasy dark_horse hero).sample}", *[sex])
     end
 
     def self.gender(sex, male_names, female_names)
