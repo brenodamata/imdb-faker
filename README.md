@@ -1,6 +1,7 @@
-# IMDB-Faker GEM 
+# IMDB-Faker 
 
 This gem proviedes random strings to test apps or populate dbs.
+Inspired by the [gotfaker] gem.
 
 Currently this gem generates:
 
@@ -9,29 +10,18 @@ Currently this gem generates:
   - Magic - TODO
 
 ### Version
-0.1.2
 
-### Tech
-
-And of course IMDB is open source with a [public repository][imdbfaker] on GitHub.
- 
- 
-Created by [Breno][twitter] for rails developers and movie lovers.
+  - 0.1.2
 
 
 ### Installation
 
-Add the gem to your Gemfile or download and isntall:
+
 
 ```sh
 $ gem instal imdb-faker-0.1.2
 ```
 
-```sh
-$ git clone [git-repo-url] imdb-faker
-$ cd imdb-faker
-$ gem instal imdb-faker-0.1.2
-```
 
 ### Usage:
 ```sh
@@ -53,10 +43,10 @@ Available parameters for genders:
 Or:
 ```sh
 IMDBFaker::Character.male_name    #=> "Bruce Banner"
-IMDBFaker::Character.demale_name  #=> "Clementine Kruczynski"
+IMDBFaker::Character.female_name  #=> "Clementine Kruczynski"
 ```
 
-#### Specific type:
+#### Generate names base on specific types:
 ```sh
 IMDBFaker::Character.funny         #=> "Stanley Ipkiss" 
 IMDBFaker::Character.eighties 'f'  #=> "Samantha Baker" 
@@ -64,19 +54,19 @@ IMDBFaker::Character.cool 'm'      #=> "Rick Deckard"
 ```
 
 Types available:
-
-  - Eighties
-  - Classic
-  - G
-  - Funny
-  - Hipster
-  - Bad_mother_f
-  - Psycho
-  - Cool
-  - Fantasy
-  - Dark_horse
-  - Hero
-
+```sh
+	IMDBFaker::Character.eighties
+	IMDBFaker::Character.classic
+	IMDBFaker::Character.g
+	IMDBFaker::Character.funny
+	IMDBFaker::Character.hipster
+	IMDBFaker::Character.bad_mother_f
+	IMDBFaker::Character.psycho
+	IMDBFaker::Character.cool
+	IMDBFaker::Character.fantasy
+	IMDBFaker::Character.dark_horse
+	IMDBFaker::Character.hero
+```
 
 ### Development
 
@@ -90,6 +80,15 @@ Want to contribute?
  - Add Places
  - Separate First and Last Names
 
+
+### Tech
+
+And of course IMDB is open source with a [public repository][imdbfaker] on GitHub.
+ 
+ 
+Created by [Breno][twitter] for rails developers and movie lovers.
+
+
 License
 ----
 
@@ -99,6 +98,7 @@ License
 
 
    [imdbfaker]: <https://github.com/brenodamata/imdb-faker>
+   [gotfaker]: <https://github.com/tonymai/gotfaker>
    [git-repo-url]: <https://github.com/brenodamata/imdb-faker.git>
    [breno]: <http:/breno.us>
    [twitter]: <http://twitter.com/brenodamata>
