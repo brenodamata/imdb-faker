@@ -1,5 +1,3 @@
-require 'imdb-faker'
-
 module IMDBFaker
   class Character
     @female_syn = %w(f w female woman girl)
@@ -27,7 +25,7 @@ module IMDBFaker
 
     def self.eighties sex=nil
       eighties_males = ['Raymond Babbitt', 'Lloyd Dobler', 'Gordon Gekko', 'Jeff Spicoli', 'Joel Goodsen',
-                        'Jack Burton', 'Axel Foley', 'Ferris Bueller', 'Dr. Emmett Brown',
+                        'Jack Burton', 'Axel Foley', 'Ferris Bueller', 'Dr. Emmett Brown', 'Johnny Castle',
                         'Marty McFly', 'Martin Riggs', 'Josh Baskin', 'Nigel Tufnell', 'Ted Logan', 
                         'Scott Howard', 'Duckie', 'John Bender', 'Edgar Frog', 'Alan Frog']
 
