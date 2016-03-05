@@ -18,7 +18,7 @@ Currently this gem generates:
 
 
 ```sh
-$ gem instal imdb-faker-0.1.2
+$ gem instal imdb-faker-0.1.3
 ```
 
 #### Gemfile
