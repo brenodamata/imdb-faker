@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Breno da Mata"]
   s.email       = 'bjrdamata@gmail.com'
   s.files       = ["lib/imdb-faker.rb"]
-  s.homepage    = 'http://rubygems.org/gems/hola'
+  s.homepage    = 'https://rubygems.org/gems/imdb-faker'
   s.license     = 'MIT'
 end

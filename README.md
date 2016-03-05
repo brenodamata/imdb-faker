@@ -17,9 +17,14 @@ Currently this gem generates:
 ### Installation
 
 
-
 ```sh
 $ gem instal imdb-faker-0.1.2
+```
+
+#### Gemfile
+
+```sh
+$ gem 'imdb-faker'
 ```
 
 
@@ -83,7 +88,7 @@ Want to contribute?
 
 ### Tech
 
-And of course IMDB is open source with a [public repository][imdbfaker] on GitHub.
+And of course IMDB-Faker is open source with a [public repository][imdbfaker] on GitHub.
  
  
 Created by [Breno][twitter] for rails developers and movie lovers.
