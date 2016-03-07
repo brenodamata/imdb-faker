@@ -1,4 +1,5 @@
 # IMDB-Faker 
+[![Gem Version](https://badge.fury.io/rb/imdb-faker.svg)](https://badge.fury.io/rb/imdb-faker)
 
 This gem proviedes random strings to test apps or populate dbs.
 Inspired by the [gotfaker] gem.
@@ -9,16 +10,12 @@ Currently this gem generates:
   - Quotes - classic movie quotes
   - Magic - TODO
 
-### Version
-
-  - 0.1.3
-
 
 ### Installation
 
 
 ```sh
-$ gem instal imdb-faker-0.1.3
+$ gem instal imdb-faker
 ```
 
 #### Gemfile
